@@ -1,0 +1,39 @@
+.conti .left{
+    position: absolute;
+    bottom: 50%;
+    width: 60px;
+    height: 300px;
+    border-radius: 50%;
+    filter:blur(25px);
+    background:radial-gradient(circle at 20% 40%,#446ca03d 0%,transparent 60%);
+    z-index: -1;
+    transform: translateY(-60%);
+    opacity: 0.4;
+}
+.key{
+    background-color: #8EADD5 !important;
+    color:white !important;
+    border:4px solid  #8EADD5 !important;
+    border-radius: 10px !important;
+}
+    #carouselExampleIndicators .carousel-indicators {
+        position: static !important;  
+        margin-top: 1rem;
+        justify-content: center; 
+    }
+    #carouselExampleIndicators .carousel-indicators button {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: #8EADD5;
+    }
+
+@media screen and (max-width:992px){
+    .trusted-logo .logo-img{
+        width: 30px !important;
+    }
+    .arrow-icon{
+        transform: rotate(90deg);
+    }
+    
+}
