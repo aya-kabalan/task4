@@ -21,9 +21,12 @@
     border:4px solid  #8EADD5 !important;
     border-radius: 10px !important;
 }
+#carouselExampleIndicators{
+    padding-bottom: 2rem;
+}
     #carouselExampleIndicators .carousel-indicators {
-        position: static !important;  
-        margin-top: 1rem;
+        position: relative !important;  
+        margin-top: 1.5rem;
         justify-content: center; 
     }
     #carouselExampleIndicators .carousel-indicators button {
