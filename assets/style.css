@@ -27,8 +27,8 @@
         justify-content: center; 
     }
     #carouselExampleIndicators .carousel-indicators button {
-        width: 12px;
-        height: 12px;
+        width: 15px;
+        height: 20px;
         border-radius: 50%;
         background-color: #8EADD5;
     }
