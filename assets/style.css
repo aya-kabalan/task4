@@ -4,29 +4,29 @@
     box-sizing: border-box;
 }
 .conti .left{
-    position: absolute;
-    bottom: 50%;
-    width: 60px;
-    height: 300px;
-    border-radius: 50%;
+    position: absolute !important;
+    bottom: 50% !important;
+    width: 100px ;
+    height: 300px ;
+    border-radius: 50% ;
     filter:blur(25px);
-    background:radial-gradient(circle at 20% 40%,#8EADD53D ,transparent 70%);
-    z-index: -1;
-    transform: translateY(-60%);
-    opacity: 0.4;
+    background:radial-gradient(circle at 20% 40%,#8EADD53D ,transparent 70%) !important;
+    z-index: -1 !important;
+    transform: translateY(-60%) !important;
+    opacity: 0.4 !important;
 }
 .conti .right{
-    position: absolute;
-    top:50%;
-    width: 60px;
-    height: 300px;
-    border-radius: 50%;
-    filter:blur(25px);
-    background:radial-gradient(circle at 80% 60%,#8EADD53D ,transparent 70%);
-    z-index: -1;
-    transform: translateY(-50%);
-    opacity: 0.4;
-    right: 0;
+    position: absolute !important;
+    bottom:50% !important;
+    width: 100px ;
+    height: 300px ;
+    border-radius: 50% ;
+    filter:blur(25px) !important;
+    background:radial-gradient(circle at 80% 60%,#8EADD53D ,transparent 70%) !important;
+    z-index: -1 !important;
+    transform: translateY(-50%) !important;
+    opacity: 0.4 !important;
+    right: 0 !important;
 }
 .key{
     background-color: #8EADD5 !important;
@@ -35,18 +35,18 @@
     border-radius: 10px !important;
 }
 #carouselExampleIndicators{
-    padding-bottom: 2rem;
+    padding-bottom: 2rem !important;
 }
     #carouselExampleIndicators .carousel-indicators {
         position: relative !important;  
-        margin-top: 1.5rem;
-        justify-content: center; 
+        margin-top: 1.5rem !important;
+        justify-content: center !important; 
     }
     #carouselExampleIndicators .carousel-indicators button {
-        width: 15px;
-        height: 20px;
-        border-radius: 50%;
-        background-color: #8EADD5;
+        width: 15px !important;
+        height: 20px !important;
+        border-radius: 50% !important;
+        background-color: #8EADD5 !important;
     }
 
 @media screen and (max-width:992px){
@@ -54,7 +54,7 @@
         width: 30px !important;
     }
     .arrow-icon{
-        transform: rotate(90deg);
+        transform: rotate(90deg) !important;
     }
     
 }
