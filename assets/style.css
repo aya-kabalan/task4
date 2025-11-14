@@ -10,10 +10,23 @@
     height: 300px;
     border-radius: 50%;
     filter:blur(25px);
-    background:radial-gradient(circle at 20% 40%,#446ca03d 0%,transparent 60%);
+    background:radial-gradient(circle at 20% 40%,#8EADD53D ,transparent 70%);
     z-index: -1;
     transform: translateY(-60%);
     opacity: 0.4;
+}
+.conti .right{
+    position: absolute;
+    top:50%;
+    width: 60px;
+    height: 300px;
+    border-radius: 50%;
+    filter:blur(25px);
+    background:radial-gradient(circle at 80% 60%,#8EADD53D ,transparent 70%);
+    z-index: -1;
+    transform: translateY(-50%);
+    opacity: 0.4;
+    right: 0;
 }
 .key{
     background-color: #8EADD5 !important;
